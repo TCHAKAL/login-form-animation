@@ -70,6 +70,7 @@ body {
   border: none;
   border-radius: 2px;
   color: #696a86;
+  cursor: pointer;
 }
 .text .signup-btn {
   background: transparent;
@@ -77,6 +78,7 @@ body {
   border-radius: 2px;
   color: #fff;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .cta {
