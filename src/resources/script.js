@@ -1,19 +1,19 @@
 var cta = document.querySelector(".cta");
 var check = 0;
 
-cta.addEventListener('click', function(e){
+cta.addEventListener('click', function (e) {
     var text = e.target.nextElementSibling;
     var loginText = e.target.parentElement;
     text.classList.toggle('show-hide');
     loginText.classList.toggle('expand');
-    if(check == 0)
-    {
+    if (check == 0) {
         cta.innerHTML = "<i class=\"fas fa-chevron-up\"></i>";
         check++;
-    }
-    else
-    {
+    } else {
         cta.innerHTML = "<i class=\"fas fa-chevron-down\"></i>";
         check = 0;
     }
 })
+// Parallax Code
+var scene = document.getElementById('scene');
+var parallax = new Parallax(scene);
